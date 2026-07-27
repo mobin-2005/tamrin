@@ -1,0 +1,33 @@
+*{padding: 0px; margin: 0px;}
+body{max-height: 800px;font-style:normal;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+#mobin{color: rgb(206, 87, 168);}
+#firstflex{display: flex; align-items: center;flex-direction:row ;font-weight: bold;font-size: large;}
+ul{list-style: none;display: flex;flex-direction: row;gap: 30px;}
+li:hover{color: cadetblue;}
+#first{display: flex;flex-direction: row;align-items: center;gap: 30px;cursor: pointer;}
+#talkbtn{background-color: rgb(206, 87, 168);border: 0px;color: white;border-radius: 4px;padding: 6px 16px;}
+#talkbtn:hover{background-color: cadetblue;cursor: pointer;}
+#header{width: 100%; max-width:700px;margin: auto ;padding-left: 60px;padding-top: 40px;
+    padding-right: 60px;display: flex;align-items: center;justify-content: space-between;}
+img{max-width: 300px;width: 100%;margin: auto;margin-top: -10px;}
+#animation{margin: auto;max-width: 700px;display: flex;align-items: center;
+    flex-direction: row;justify-content:space-between;padding-left: 60px;padding-right: 60px;}
+    #text{display: flex;gap: 10px;flex-direction: column;min-width: 280px;padding-top: 40px;}
+p{font-size: smaller;max-width: 350px;font-size: 14px;color: rgb(77, 77, 77);}
+#watchbtn{background-color: rgb(206, 87, 168); border: 2px;border-radius: 6px;padding: 10px 32px ;color: white;}
+#watchbtn:hover{background-color: cadetblue;cursor: pointer;}
+#infobtn{border: 2px;border-color: rgb(206, 87, 168);border-style: solid; color:rgb(206, 87, 168) ;
+    background-color: white;border-radius: 6px; padding: 8px 28px;}
+#infobtn:hover{color: cadetblue;border-color: cadetblue;cursor: pointer;}
+h1{font-size: 32px;}
+h3{font-size: 24px;}
+#telegram{max-width: 24px;border: 2px;border-style: solid;border-radius: 50%;border-color: rgb(206 , 87 ,168);}
+#telegram:hover{border-color: cadetblue;}
+#instagram{max-width: 24px;border: 2px;border-radius: 50%; border-style: solid;border-color: rgb(206 , 87 ,168);}
+#instagram:hover{border-color: cadetblue;}
+#facebook{max-width: 24px;border: 2px;border-radius: 50%; border-style: solid;border-color: rgb(206 , 87 ,168);}
+#facebook:hover{border-color: cadetblue;}
+#btns{display: flex;gap: 100px;flex-direction: column;}
+#pink{color: rgb(206 , 87 ,168);}
+#firstlink{text-decoration: none;color: inherit;}
+#firstflex:hover{color: rgb(206 , 87 ,168);}
